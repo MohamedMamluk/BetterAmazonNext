@@ -5,7 +5,7 @@ import { toggle } from '../../features/menuSlice';
 const Header = () => {
   const dispatch = useAppDispatch();
   return (
-    <header className='p-5 bg-blue-500 text-white'>
+    <header className='p-5 h-32 bg-nWhite-300 text-white'>
       <button
         className='px-2 py-1 bg-slate-500 text-white rounded-md active:scale-95 transition-all z-30 relative'
         onClick={() => dispatch(toggle())}

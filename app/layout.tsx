@@ -12,9 +12,9 @@ export default function RootLayout({
   return (
     <html>
       <head />
-      <body>
+      <body className='h-full'>
         <StateProvider>
-          <main className='flex '>
+          <main className='flex h-auto'>
             <Sidenav />
             <div className='w-full'>
               <Header />
