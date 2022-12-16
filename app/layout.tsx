@@ -12,7 +12,7 @@ export default function RootLayout({
   return (
     <html>
       <head />
-      <body className='h-full'>
+      <body className='h-full font-montserrat'>
         <StateProvider>
           <main className='flex h-auto'>
             <Sidenav />
