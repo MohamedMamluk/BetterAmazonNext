@@ -11,7 +11,7 @@ const Sidenav = () => {
         isOpened ? 'block' : 'hidden'
       } absolute w-2/3 sm:w-1/2 bg-white text-nBlack shadow-lg text-base  font-bold shadow-slate-300 md:relative md:block md:w-1/3 lg:w-1/4 xl:w-1/5`}
     >
-      <div className='bg-nWhite-300 p-5 h-20 lg:h-28 shadow-lg w-full relative'>
+      <div className='bg-nWhite-300 p-5 h-20 lg:h-24 shadow-lg w-full relative'>
         <Image
           src='/logo.png'
           alt='betterAmazonLogo'
