@@ -14,20 +14,13 @@ import Image from 'next/image';
 const Home = () => {
   const menu = useAppSelector((state) => state.menu.value);
   const dispatch = useAppDispatch();
-  const pagination = {
-    clickable: true,
-    renderBullet: function (index: number) {
-      return `<div class="w-20  bg-gray-500">${' '}   </div>`;
-    },
-  };
   return (
-    <div className='w-full'>
+    <div className='w-full border border-blue-500'>
       <div className=' lg:max-w-3xl xl:max-w-5xl h-[200px]  mx-auto relative md:h-[400px] lg:h-[500px] xl:h-[600px] mt-4 rounded-lg overflow-hidden'>
         <Swiper
           navigation
-          pagination={pagination}
           keyboard
-          modules={[Pagination, Navigation, Keyboard]}
+          modules={[Navigation, Keyboard]}
           centeredSlides
           slidesPerView={1}
           className='w-full h-full'

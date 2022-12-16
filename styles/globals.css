@@ -6,5 +6,5 @@
 
 .swiper-button-prev,
 .swiper-button-next {
-  color: gray;
+  color: gray !important;
 }
