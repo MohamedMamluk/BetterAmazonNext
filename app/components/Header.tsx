@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className='  h-20 lg:h-24 bg-nWhite-100 px-5 text-white flex items-center justify-between'>
       <button
-        className='px-2 py-1  text-white rounded-md active:scale-95 transition-all z-30 relative flex flex-col gap-0.5 md:hidden'
+        className='px-2 py-1  text-white rounded-md active:scale-95 transition-all z-30 relative flex flex-col gap-0.5 lg:hidden'
         onClick={() => dispatch(toggle())}
       >
         <span className='block h-0.5 w-4 bg-black'></span>
