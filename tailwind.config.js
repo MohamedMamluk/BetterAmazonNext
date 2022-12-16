@@ -15,6 +15,9 @@ module.exports = {
         aLightBlue: '#18a9fb',
         aDeepBlue: '#02346b',
       },
+      fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
+      },
     },
   },
   plugins: [],
