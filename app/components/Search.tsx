@@ -1,14 +1,15 @@
+'use client';
 import React from 'react';
 
 const Search = () => {
   return (
-    <div className=' flex justify-between mt-4 mx-2 rounded-md  outline outline-1 outline-nWhite-300'>
+    <div className=' flex justify-between mt-4 md:mt-0 mx-2 rounded-md  outline outline-1 outline-nWhite-300'>
       <input
         type='text'
         placeholder='I am looking for...'
-        className='placeholder:text-nWhite-300 w-3/4  p-2 font-normal '
+        className='placeholder:text-gray-400 w-full  py-2 px-4 font-normal '
       />
-      <button className='w-1/4 flex justify-center items-center'>
+      <button className='w-24 flex justify-center items-center bg-white text-nBlack'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           viewBox='0 0 20 20'
